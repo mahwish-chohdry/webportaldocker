@@ -1,0 +1,131 @@
+.filedropzone {
+    cursor: pointer;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    opacity: 0.8;
+  }
+  .filedropzone.onDragEnter,
+  .filedropzone:hover {
+    background: #ddd !important;
+  }
+
+  .d-block{
+    display: block;
+  }
+
+.filedropzone:hover{
+  background-color: #F4C12A !important;
+  opacity: 1;
+}
+.filedropzone.disabled{
+  background-color: lightgrey !important;
+  cursor: not-allowed! important;
+  pointer-events: all !important;
+}
+.disabledBtn{
+  background-color: lightgrey !important;
+}
+/* #fileUploaderSection .dropdown button:first-child {
+  width: 70% !important;
+}
+
+#fileUploaderSection .dropdown-menu {
+  width: 70% !important;
+} */
+#fileUploaderSection .upload-btn{
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  background-color: #F4C12A !important;
+  vertical-align: top;
+}
+
+#fileUploaderSection  .comp-drop
+{
+   float: left;
+}
+
+.pd-30
+{
+  padding-top: 30px !important;
+}
+.pd-22{
+  padding-top: 22px !important;
+}
+.pd-50
+{
+  padding-top: 50px !important;
+}
+
+.file-place-holder{
+  background-color: #d3d3d338 !important;
+  margin-top: 30px;
+  padding-top: 20px !important;
+  height: 250px !important;
+  color: darkslategrey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.file-place-holder .card .content {
+  padding: 10px;
+  display: inline-flex;
+  text-align: left;
+}
+.file-place-holder .card {
+  padding: 0;
+  text-align: left;
+}
+
+.excel-color{
+  color: #1d6f42 !important;
+  display: inline-flex;
+  font-size: xx-large;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+.file-icon{
+  display: inline-flex;
+  font-size: xx-large;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.clearBtn{
+  border-radius: 100px;
+    float: right;
+    cursor: pointer;
+}
+
+.mt-5{
+  margin-top: 5px !important;
+}
+
+.file-card{
+  padding: 5px !important;
+  display: flex;
+  width: max-content;
+  height: max-content;
+}
+
+.file-card .text-wrap{
+  overflow-wrap: break-word;
+    word-break: break-all;
+    white-space: unset;
+}
+
+.remove-padding-left{
+padding-left: 0px !important;
+}
+
+.remove-padding-right{
+padding-right: 0px !important;
+}
+
+

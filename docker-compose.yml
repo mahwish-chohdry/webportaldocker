@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  superadmin.webui:
+    image: ${DOCKER_REGISTRY-}superadminwebui
+    build:
+      context: .
+      dockerfile: SuperAdmin.WebUI/Dockerfile

@@ -1,0 +1,422 @@
+.custom-content {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.emailLable {
+    font-weight: bolder;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.login-card {
+    background-color: #eee;
+    width: 30%;
+    height: 300px;
+    margin-top: 10%;
+    border-radius: 25px;
+}
+
+.btn {
+    border-color: #E3E3E3;
+    border-width: 1px;
+    color: black;
+}
+
+.login-form {
+    margin-top: 10%;
+}
+
+.rowStyle {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.customLabel {
+    margin-bottom: 0px !important;
+    padding-left: 15px
+}
+
+.companyAddButton {
+    margin-top: 5px;
+}
+
+.formAddButton {
+    margin-top: 24px;
+}
+
+.deviceCustomPadding {
+    padding-left: 6px !important;
+}
+
+.serialrange {
+    padding-top: 1% !important;
+}
+
+.inputMargin {
+    margin-bottom: 0px !important;
+}
+
+.separatorCol {
+    width: 1.333333%;
+    float: left;
+    margin-top: 5px;
+}
+
+.separator {
+    font-size: 25px !important;
+    margin: 0px !important;
+    padding-top: 2px !important;
+}
+
+.buttonStyle {
+    width: 100%;
+    background-color: #F4C12A;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+}
+
+    .buttonStyle:hover {
+        background-color: #F4C12A;
+        color: white;
+    }
+
+.btn-green {
+    background-color: #30B99B !important;
+}
+
+.logo {
+    margin: 10px 0 0 0 !important;
+    padding: 0 0 10px 0 !important;
+    font-weight: bolder;
+    font-family: sans-serif;
+    color: white !important;
+}
+
+    .logo .simple-text {
+        padding: 3px 0 5px 5px !important;
+    }
+
+.logo-img-login img {
+    width: 120px !important;
+    margin-right: 50px;
+    font-size:20px !important;
+}
+
+.logo-img img {
+    width: 144px !important;
+    margin-right: 10px;
+}
+
+.main-title {
+    font-size:22px !important;
+}
+
+.nav-color {
+    background-color: #333;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #30B99B !important;
+}
+
+.sidebar-wrapper {
+    border-top: 1px solid #30B99B !important;
+}
+
+.buttonColor {
+    background-color:#F4C12A !important;
+    color: white !important;
+    font-weight: bold;
+    border: 0px;
+}
+.buttonColor:disabled {
+    background-color: #F4C12A;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+    .buttonColor:hover {
+        background-color: #F4C12A !important;
+        color: white !important;
+    }
+
+button#submit, #exportToExcel:focus {
+    background-color: #F4C12A;
+    color: white;
+}
+
+.submenu_hide {
+    display: none;
+}
+
+.submenu_show {
+    display: block;
+}
+/* width */
+.sidebar-wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.sidebar-wrapper::-webkit-scrollbar-track {
+    background: #444444
+}
+
+/* Handle */
+.sidebar-wrapper::-webkit-scrollbar-thumb {
+    background: #555;
+}
+
+    /* Handle on hover */
+    .sidebar-wrapper::-webkit-scrollbar-thumb:hover {
+        background: #888;
+    }
+
+div::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+div::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+div::-webkit-scrollbar-thumb {
+    background: whitesmoke;
+}
+
+    /* Handle on hover */
+    div::-webkit-scrollbar-thumb:hover {
+        background: #888 !important;
+    }
+
+.custom-inputs {
+    padding-left: 0% !important;
+    padding-bottom: 0% !important;
+}
+
+.custom-splitbutton {
+    margin-top: 30px !important;
+}
+
+.usage-report-dropdown {
+    width: 83% !important;
+}
+.permission-padding{
+    padding-bottom: 0% !important;
+}
+.custom-checkbox{
+    margin-left: 14px;
+    padding-top: 1px;
+}
+.checkbox-padding{
+    padding-top: 0% !important;
+}
+.addFormName{
+    overflow: auto !important;
+}
+
+/* .dropdown {
+    width: 100% !important;
+}
+
+    .dropdown button:first-child {
+        width: 35%;
+    }
+
+.dropdown-menu {
+    width: 33% !important;
+} */
+
+.usage-report-custom-col {
+    margin-top: 1%;
+}
+
+.usage-report-custom-InputCol {
+    margin-top: -1.5%;
+}
+
+.usageReportDiv {
+    display: flex;
+    place-content: center;
+    padding-top: 8%;
+    min-height: 300px !important;
+    height: 100% !important;
+}
+
+.alarmReportDiv.no-data {
+    display: flex;
+    place-content: center;
+    padding-top: 13%;
+    padding-bottom: 13%;
+    height: 100% !important;
+}
+
+.alarmReportDiv {
+    min-height: 300px !important;
+}
+
+.usageReportButton {
+    width: 90% !important;
+}
+
+.usageReportPaddingRight {
+    padding-right: 0px !important;
+}
+
+.usageReportPaddingleft {
+    padding-left: 0px !important;
+}
+
+.ct-axis-title {
+    fill: #a9a9a9 !important;
+    /* font-size: medium; */
+    font-weight: bold;
+}
+
+svg:not(:root) {
+    overflow: overlay;
+}
+
+.dropdown-menu {
+    max-height: 300px !important;
+    overflow-y: scroll;
+    border-radius: 0px !important;
+}
+
+    .dropdown-menu::-webkit-scrollbar {
+        width: 10px;
+    }
+    /* Track */
+    .dropdown-menu::-webkit-scrollbar-track {
+        background: white;
+        display: inline;
+    }
+
+    /* Handle */
+    .dropdown-menu::-webkit-scrollbar-thumb {
+        background: whitesmoke;
+    }
+
+        /* Handle on hover */
+        .dropdown-menu::-webkit-scrollbar-thumb:hover {
+            background: #888 !important;
+        }
+
+.ct-chart {
+    margin-left: 10px !important;
+}
+
+.clickable {
+    cursor: pointer
+}
+
+.sidebarNavItem {
+    font-size: 15px !important;
+    float: right !important;
+    margin-right: 0px !important;
+    padding-right: 25px !important;
+    width: 0px !important;
+    margin-top: -5px !important;
+}
+
+.sidebar .nav li a {
+    padding-right: 1% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    border-radius: 0 !important;
+}
+
+.sidebar .nav p {
+    margin: 0;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* .ReactTable .-sort-desc {
+    box-shadow: none !important;
+}
+.ReactTable .-sort-desc :before {
+    content: "▼";
+    float: right;
+} */
+/* .ReactTable .-sort-asc {
+    box-shadow: none !important;
+}
+.ReactTable .-sort-asc:before {
+    content: "▲";
+    float: right;
+} */
+.ReactTable .rt-resizable-header {
+    padding: 6px 24px !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.ReactTable .rt-resizable-header-content:before {
+    display: inline-block;
+    position: absolute;
+    right: 25px;
+    top: 3px;
+    height: 18px;
+    width: 18px;
+    color: transparent;
+    content: '.';
+    background-size: 18px 18px;
+    background-repeat: no-repeat;
+    opacity: 0.87;
+}
+
+.ReactTable .rt-resizable-header-content .sortable:after {
+    position: absolute;
+    right: 8px;
+    top: 6px;
+    height: 25px;
+    width: 19px;
+    z-index: 120;
+    color: transparent;
+    content: '.';
+}
+
+.ReactTable .rt-th.-sort-asc .rt-resizable-header-content .sortable:after {
+    background-size: 16px 18px;
+    background-repeat: no-repeat;
+    background-image: url('./../img/sort-up.png');
+}
+
+.ReactTable .rt-resizable-header-content .sortable:after {
+    background-size: 16px 18px;
+    background-repeat: no-repeat;
+    background-image: url('./../img/sort.png');
+}
+
+.ReactTable .rt-th.-sort-desc .rt-resizable-header-content .sortable:after {
+    background-size: 16px 18px;
+    background-repeat: no-repeat;
+    background-image: url('./../img/sort-down.png');
+}
+.rt-th {
+    white-space: normal !important
+  }
+.viewReportButton {
+    width: 13.5% !important;
+}
+.searchIcon {
+    margin-right: 2%;
+}
+.summaryBadge{
+    margin-right: 1%;
+    margin-bottom: 0.2%
+}
+.react-datepicker {
+    font-size: 1.2rem !important;
+}
+
+.optionDisable{
+    cursor: not-allowed !important;
+}

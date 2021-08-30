@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperAdmin.WebUI", "SuperAdmin.WebUI\SuperAdmin.WebUI.csproj", "{AB902609-2E87-4A38-BCEE-2282CB16009C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperAdmin.Common", "SuperAdmin.Common\SuperAdmin.Common.csproj", "{BA960F84-E4D9-4B25-81FA-1B6356A26F20}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperAdmin.Models", "SuperAdmin.Models\SuperAdmin.Models.csproj", "{4C2A161B-6E79-4D58-A441-2AE194EE909F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperAdmin.Services", "SuperAdmin.Services\SuperAdmin.Services.csproj", "{B2AEDE40-7879-473D-952A-AD3561967BEB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperAdmin.BusinessLayer", "SuperAdmin.BusinessLayer\SuperAdmin.BusinessLayer.csproj", "{EAFF2170-F7A4-4BED-AB1F-C3E44BCEF933}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperAdmin.Repository", "SuperAdmin.Repository\SuperAdmin.Repository.csproj", "{C0F23B7F-1CAE-4F21-A286-E46C31059B8F}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2F158FBD-6B67-46D3-8EEE-2D62D317CAEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB902609-2E87-4A38-BCEE-2282CB16009C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB902609-2E87-4A38-BCEE-2282CB16009C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB902609-2E87-4A38-BCEE-2282CB16009C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB902609-2E87-4A38-BCEE-2282CB16009C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA960F84-E4D9-4B25-81FA-1B6356A26F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA960F84-E4D9-4B25-81FA-1B6356A26F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA960F84-E4D9-4B25-81FA-1B6356A26F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA960F84-E4D9-4B25-81FA-1B6356A26F20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2A161B-6E79-4D58-A441-2AE194EE909F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2A161B-6E79-4D58-A441-2AE194EE909F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2A161B-6E79-4D58-A441-2AE194EE909F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2A161B-6E79-4D58-A441-2AE194EE909F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AEDE40-7879-473D-952A-AD3561967BEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AEDE40-7879-473D-952A-AD3561967BEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AEDE40-7879-473D-952A-AD3561967BEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AEDE40-7879-473D-952A-AD3561967BEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAFF2170-F7A4-4BED-AB1F-C3E44BCEF933}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAFF2170-F7A4-4BED-AB1F-C3E44BCEF933}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAFF2170-F7A4-4BED-AB1F-C3E44BCEF933}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAFF2170-F7A4-4BED-AB1F-C3E44BCEF933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0F23B7F-1CAE-4F21-A286-E46C31059B8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0F23B7F-1CAE-4F21-A286-E46C31059B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0F23B7F-1CAE-4F21-A286-E46C31059B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0F23B7F-1CAE-4F21-A286-E46C31059B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F158FBD-6B67-46D3-8EEE-2D62D317CAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F158FBD-6B67-46D3-8EEE-2D62D317CAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F158FBD-6B67-46D3-8EEE-2D62D317CAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F158FBD-6B67-46D3-8EEE-2D62D317CAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86AC514E-37DB-4FC1-9324-91CF8AEE1A92}
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal
